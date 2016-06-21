@@ -1,0 +1,26 @@
+{
+  "name": "weibo-crawler-with-node",
+  "version": "0.0.1",
+  "description": "A weibo crawler implemented by Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "crawler",
+    "weibo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezirmusitua/node-wb-crawler.git"
+  },
+  "author": "Jferroal",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "fiber": "^1.0.4",
+    "phantom": "^2.0.10",
+    "request": "^2.72.0"
+  }
+}
